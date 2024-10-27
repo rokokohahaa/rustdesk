@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["www.rokoko.top"];
-pub const PUBLIC_RS_PUB_KEY: &str = "vWl4MNrf9oN4LHPflb8Dvo5QhWYAE37mOy7GmaBzlHM=";
+pub const PUBLIC_RS_PUB_KEY: &str = "tEaZ+m1AhiAIsj34El+lxngLMOPxJ7IqZ2xD6TpTrG0=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
